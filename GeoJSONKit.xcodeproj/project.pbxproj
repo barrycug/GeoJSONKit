@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F82DC4E176C760F006DD067 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82DC4D176C760F006DD067 /* UIKit.framework */; };
+		4F82DC50176C760F006DD067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82DC4F176C760F006DD067 /* Foundation.framework */; };
+		4F82DC52176C760F006DD067 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82DC51176C760F006DD067 /* CoreGraphics.framework */; };
+		4F82DC58176C760F006DD067 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F82DC56176C760F006DD067 /* InfoPlist.strings */; };
+		4F82DC5A176C760F006DD067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC59176C760F006DD067 /* main.m */; };
+		4F82DC5E176C760F006DD067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC5D176C760F006DD067 /* AppDelegate.m */; };
+		4F82DC60176C760F006DD067 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F82DC5F176C760F006DD067 /* Default.png */; };
+		4F82DC62176C760F006DD067 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F82DC61176C760F006DD067 /* Default@2x.png */; };
+		4F82DC64176C760F006DD067 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F82DC63176C760F006DD067 /* Default-568h@2x.png */; };
+		4F82DC67176C760F006DD067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC66176C760F006DD067 /* ViewController.m */; };
+		4F82DC6A176C760F006DD067 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F82DC68176C760F006DD067 /* ViewController.xib */; };
+		4F82DC77176C7718006DD067 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F82DC73176C7718006DD067 /* CHANGELOG.md */; };
+		4F82DC78176C7718006DD067 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC75176C7718006DD067 /* JSONKit.m */; };
+		4F82DC79176C7718006DD067 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F82DC76176C7718006DD067 /* README.md */; };
+		4F82DC82176C7C3E006DD067 /* GeoJSONCRS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC81176C7C3E006DD067 /* GeoJSONCRS.m */; };
+		4F82DC85176C8044006DD067 /* GeoJSONPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC84176C8044006DD067 /* GeoJSONPoint.m */; };
+		4F82DC88176C80F4006DD067 /* GeoJSONBBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC87176C80F4006DD067 /* GeoJSONBBox.m */; };
+		4F82DC8B176C872A006DD067 /* GeoJSONLineString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC8A176C872A006DD067 /* GeoJSONLineString.m */; };
+		4F82DC8E176C92E5006DD067 /* GeoJSONGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC8D176C92E4006DD067 /* GeoJSONGeometry.m */; };
+		4F82DC91176C963A006DD067 /* GeoJSONPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC90176C963A006DD067 /* GeoJSONPolygon.m */; };
+		4F82DC94176C96A0006DD067 /* GeoJSONLinearRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC93176C96A0006DD067 /* GeoJSONLinearRing.m */; };
+		4F82DC98176CA262006DD067 /* GeoJSONMultiPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC97176CA262006DD067 /* GeoJSONMultiPoint.m */; };
+		4F82DC9B176CA48E006DD067 /* GeoJSONMultiLineString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC9A176CA48D006DD067 /* GeoJSONMultiLineString.m */; };
+		4F82DC9E176D999A006DD067 /* GeoJSONMultiPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DC9D176D999A006DD067 /* GeoJSONMultiPolygon.m */; };
+		4F82DCA1176D9D99006DD067 /* GeoJSONGeometryCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DCA0176D9D98006DD067 /* GeoJSONGeometryCollection.m */; };
+		4F82DCA4176DA3DF006DD067 /* GeoJSONNamedCRS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DCA3176DA3DE006DD067 /* GeoJSONNamedCRS.m */; };
+		4F82DCA7176DA95E006DD067 /* GeoJSONLinkCRS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DCA6176DA95D006DD067 /* GeoJSONLinkCRS.m */; };
+		4F82DCAA176DAAE7006DD067 /* GeoJSONFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DCA9176DAAE6006DD067 /* GeoJSONFeature.m */; };
+		4F82DCAD176DAD8F006DD067 /* GeoJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DCAC176DAD8E006DD067 /* GeoJSONObject.m */; };
+		4F82DCB0176DD301006DD067 /* GeoJSONFeatureCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DCAF176DD301006DD067 /* GeoJSONFeatureCollection.m */; };
+		4F82DCB3176DDA4B006DD067 /* NSString+GeoJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82DCB2176DDA4B006DD067 /* NSString+GeoJSON.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F82DC49176C760F006DD067 /* GeoJSONKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoJSONKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F82DC4D176C760F006DD067 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F82DC4F176C760F006DD067 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F82DC51176C760F006DD067 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F82DC55176C760F006DD067 /* GeoJSONKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoJSONKit-Info.plist"; sourceTree = "<group>"; };
+		4F82DC57176C760F006DD067 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F82DC59176C760F006DD067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F82DC5B176C760F006DD067 /* GeoJSONKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoJSONKit-Prefix.pch"; sourceTree = "<group>"; };
+		4F82DC5C176C760F006DD067 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F82DC5D176C760F006DD067 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F82DC5F176C760F006DD067 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4F82DC61176C760F006DD067 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4F82DC63176C760F006DD067 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4F82DC65176C760F006DD067 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F82DC66176C760F006DD067 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F82DC69176C760F006DD067 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4F82DC73176C7718006DD067 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		4F82DC74176C7718006DD067 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4F82DC75176C7718006DD067 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4F82DC76176C7718006DD067 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		4F82DC7A176C7739006DD067 /* GeoJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoJSON.h; sourceTree = "<group>"; };
+		4F82DC7B176C786E006DD067 /* GeoJSONCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoJSONCoding.h; sourceTree = "<group>"; };
+		4F82DC80176C7C3E006DD067 /* GeoJSONCRS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONCRS.h; sourceTree = "<group>"; };
+		4F82DC81176C7C3E006DD067 /* GeoJSONCRS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONCRS.m; sourceTree = "<group>"; };
+		4F82DC83176C8044006DD067 /* GeoJSONPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONPoint.h; sourceTree = "<group>"; };
+		4F82DC84176C8044006DD067 /* GeoJSONPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONPoint.m; sourceTree = "<group>"; };
+		4F82DC86176C80F4006DD067 /* GeoJSONBBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONBBox.h; sourceTree = "<group>"; };
+		4F82DC87176C80F4006DD067 /* GeoJSONBBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONBBox.m; sourceTree = "<group>"; };
+		4F82DC89176C872A006DD067 /* GeoJSONLineString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONLineString.h; sourceTree = "<group>"; };
+		4F82DC8A176C872A006DD067 /* GeoJSONLineString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONLineString.m; sourceTree = "<group>"; };
+		4F82DC8C176C92E4006DD067 /* GeoJSONGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONGeometry.h; sourceTree = "<group>"; };
+		4F82DC8D176C92E4006DD067 /* GeoJSONGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONGeometry.m; sourceTree = "<group>"; };
+		4F82DC8F176C963A006DD067 /* GeoJSONPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONPolygon.h; sourceTree = "<group>"; };
+		4F82DC90176C963A006DD067 /* GeoJSONPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONPolygon.m; sourceTree = "<group>"; };
+		4F82DC92176C96A0006DD067 /* GeoJSONLinearRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONLinearRing.h; sourceTree = "<group>"; };
+		4F82DC93176C96A0006DD067 /* GeoJSONLinearRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONLinearRing.m; sourceTree = "<group>"; };
+		4F82DC96176CA262006DD067 /* GeoJSONMultiPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONMultiPoint.h; sourceTree = "<group>"; };
+		4F82DC97176CA262006DD067 /* GeoJSONMultiPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONMultiPoint.m; sourceTree = "<group>"; };
+		4F82DC99176CA48D006DD067 /* GeoJSONMultiLineString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONMultiLineString.h; sourceTree = "<group>"; };
+		4F82DC9A176CA48D006DD067 /* GeoJSONMultiLineString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONMultiLineString.m; sourceTree = "<group>"; };
+		4F82DC9C176D999A006DD067 /* GeoJSONMultiPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONMultiPolygon.h; sourceTree = "<group>"; };
+		4F82DC9D176D999A006DD067 /* GeoJSONMultiPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONMultiPolygon.m; sourceTree = "<group>"; };
+		4F82DC9F176D9D98006DD067 /* GeoJSONGeometryCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONGeometryCollection.h; sourceTree = "<group>"; };
+		4F82DCA0176D9D98006DD067 /* GeoJSONGeometryCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONGeometryCollection.m; sourceTree = "<group>"; };
+		4F82DCA2176DA3DE006DD067 /* GeoJSONNamedCRS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONNamedCRS.h; sourceTree = "<group>"; };
+		4F82DCA3176DA3DE006DD067 /* GeoJSONNamedCRS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONNamedCRS.m; sourceTree = "<group>"; };
+		4F82DCA5176DA95D006DD067 /* GeoJSONLinkCRS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONLinkCRS.h; sourceTree = "<group>"; };
+		4F82DCA6176DA95D006DD067 /* GeoJSONLinkCRS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONLinkCRS.m; sourceTree = "<group>"; };
+		4F82DCA8176DAAE6006DD067 /* GeoJSONFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONFeature.h; sourceTree = "<group>"; };
+		4F82DCA9176DAAE6006DD067 /* GeoJSONFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONFeature.m; sourceTree = "<group>"; };
+		4F82DCAB176DAD8D006DD067 /* GeoJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONObject.h; sourceTree = "<group>"; };
+		4F82DCAC176DAD8E006DD067 /* GeoJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONObject.m; sourceTree = "<group>"; };
+		4F82DCAE176DD300006DD067 /* GeoJSONFeatureCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoJSONFeatureCollection.h; sourceTree = "<group>"; };
+		4F82DCAF176DD301006DD067 /* GeoJSONFeatureCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoJSONFeatureCollection.m; sourceTree = "<group>"; };
+		4F82DCB1176DDA4A006DD067 /* NSString+GeoJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GeoJSON.h"; sourceTree = "<group>"; };
+		4F82DCB2176DDA4B006DD067 /* NSString+GeoJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GeoJSON.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F82DC46176C760E006DD067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F82DC4E176C760F006DD067 /* UIKit.framework in Frameworks */,
+				4F82DC50176C760F006DD067 /* Foundation.framework in Frameworks */,
+				4F82DC52176C760F006DD067 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F82DC3E176C760E006DD067 = {
+			isa = PBXGroup;
+			children = (
+				4F82DC53176C760F006DD067 /* GeoJSONKit */,
+				4F82DC4C176C760F006DD067 /* Frameworks */,
+				4F82DC4A176C760F006DD067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F82DC4A176C760F006DD067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F82DC49176C760F006DD067 /* GeoJSONKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F82DC4C176C760F006DD067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F82DC4D176C760F006DD067 /* UIKit.framework */,
+				4F82DC4F176C760F006DD067 /* Foundation.framework */,
+				4F82DC51176C760F006DD067 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F82DC53176C760F006DD067 /* GeoJSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				4F82DC71176C7718006DD067 /* thirdparty */,
+				4F82DC70176C770F006DD067 /* SDK */,
+				4F82DC5C176C760F006DD067 /* AppDelegate.h */,
+				4F82DC5D176C760F006DD067 /* AppDelegate.m */,
+				4F82DC65176C760F006DD067 /* ViewController.h */,
+				4F82DC66176C760F006DD067 /* ViewController.m */,
+				4F82DC68176C760F006DD067 /* ViewController.xib */,
+				4F82DC54176C760F006DD067 /* Supporting Files */,
+			);
+			path = GeoJSONKit;
+			sourceTree = "<group>";
+		};
+		4F82DC54176C760F006DD067 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F82DC55176C760F006DD067 /* GeoJSONKit-Info.plist */,
+				4F82DC56176C760F006DD067 /* InfoPlist.strings */,
+				4F82DC59176C760F006DD067 /* main.m */,
+				4F82DC5B176C760F006DD067 /* GeoJSONKit-Prefix.pch */,
+				4F82DC5F176C760F006DD067 /* Default.png */,
+				4F82DC61176C760F006DD067 /* Default@2x.png */,
+				4F82DC63176C760F006DD067 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F82DC70176C770F006DD067 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				4F82DC7A176C7739006DD067 /* GeoJSON.h */,
+				4F82DC86176C80F4006DD067 /* GeoJSONBBox.h */,
+				4F82DC87176C80F4006DD067 /* GeoJSONBBox.m */,
+				4F82DC7B176C786E006DD067 /* GeoJSONCoding.h */,
+				4F82DC80176C7C3E006DD067 /* GeoJSONCRS.h */,
+				4F82DC81176C7C3E006DD067 /* GeoJSONCRS.m */,
+				4F82DCA8176DAAE6006DD067 /* GeoJSONFeature.h */,
+				4F82DCA9176DAAE6006DD067 /* GeoJSONFeature.m */,
+				4F82DCAE176DD300006DD067 /* GeoJSONFeatureCollection.h */,
+				4F82DCAF176DD301006DD067 /* GeoJSONFeatureCollection.m */,
+				4F82DC8C176C92E4006DD067 /* GeoJSONGeometry.h */,
+				4F82DC8D176C92E4006DD067 /* GeoJSONGeometry.m */,
+				4F82DC9F176D9D98006DD067 /* GeoJSONGeometryCollection.h */,
+				4F82DCA0176D9D98006DD067 /* GeoJSONGeometryCollection.m */,
+				4F82DC92176C96A0006DD067 /* GeoJSONLinearRing.h */,
+				4F82DC93176C96A0006DD067 /* GeoJSONLinearRing.m */,
+				4F82DC89176C872A006DD067 /* GeoJSONLineString.h */,
+				4F82DC8A176C872A006DD067 /* GeoJSONLineString.m */,
+				4F82DCA5176DA95D006DD067 /* GeoJSONLinkCRS.h */,
+				4F82DCA6176DA95D006DD067 /* GeoJSONLinkCRS.m */,
+				4F82DC99176CA48D006DD067 /* GeoJSONMultiLineString.h */,
+				4F82DC9A176CA48D006DD067 /* GeoJSONMultiLineString.m */,
+				4F82DC96176CA262006DD067 /* GeoJSONMultiPoint.h */,
+				4F82DC97176CA262006DD067 /* GeoJSONMultiPoint.m */,
+				4F82DC9C176D999A006DD067 /* GeoJSONMultiPolygon.h */,
+				4F82DC9D176D999A006DD067 /* GeoJSONMultiPolygon.m */,
+				4F82DCA2176DA3DE006DD067 /* GeoJSONNamedCRS.h */,
+				4F82DCA3176DA3DE006DD067 /* GeoJSONNamedCRS.m */,
+				4F82DCAB176DAD8D006DD067 /* GeoJSONObject.h */,
+				4F82DCAC176DAD8E006DD067 /* GeoJSONObject.m */,
+				4F82DC83176C8044006DD067 /* GeoJSONPoint.h */,
+				4F82DC84176C8044006DD067 /* GeoJSONPoint.m */,
+				4F82DC8F176C963A006DD067 /* GeoJSONPolygon.h */,
+				4F82DC90176C963A006DD067 /* GeoJSONPolygon.m */,
+				4F82DCB1176DDA4A006DD067 /* NSString+GeoJSON.h */,
+				4F82DCB2176DDA4B006DD067 /* NSString+GeoJSON.m */,
+			);
+			path = SDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		4F82DC71176C7718006DD067 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				4F82DC72176C7718006DD067 /* JSONKit */,
+			);
+			path = thirdparty;
+			sourceTree = SOURCE_ROOT;
+		};
+		4F82DC72176C7718006DD067 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				4F82DC73176C7718006DD067 /* CHANGELOG.md */,
+				4F82DC74176C7718006DD067 /* JSONKit.h */,
+				4F82DC75176C7718006DD067 /* JSONKit.m */,
+				4F82DC76176C7718006DD067 /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F82DC48176C760E006DD067 /* GeoJSONKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F82DC6D176C760F006DD067 /* Build configuration list for PBXNativeTarget "GeoJSONKit" */;
+			buildPhases = (
+				4F82DC45176C760E006DD067 /* Sources */,
+				4F82DC46176C760E006DD067 /* Frameworks */,
+				4F82DC47176C760E006DD067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoJSONKit;
+			productName = GeoJSONKit;
+			productReference = 4F82DC49176C760F006DD067 /* GeoJSONKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F82DC40176C760E006DD067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = igis.me;
+			};
+			buildConfigurationList = 4F82DC43176C760E006DD067 /* Build configuration list for PBXProject "GeoJSONKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F82DC3E176C760E006DD067;
+			productRefGroup = 4F82DC4A176C760F006DD067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F82DC48176C760E006DD067 /* GeoJSONKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F82DC47176C760E006DD067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F82DC58176C760F006DD067 /* InfoPlist.strings in Resources */,
+				4F82DC60176C760F006DD067 /* Default.png in Resources */,
+				4F82DC62176C760F006DD067 /* Default@2x.png in Resources */,
+				4F82DC64176C760F006DD067 /* Default-568h@2x.png in Resources */,
+				4F82DC6A176C760F006DD067 /* ViewController.xib in Resources */,
+				4F82DC77176C7718006DD067 /* CHANGELOG.md in Resources */,
+				4F82DC79176C7718006DD067 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F82DC45176C760E006DD067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F82DC5A176C760F006DD067 /* main.m in Sources */,
+				4F82DC5E176C760F006DD067 /* AppDelegate.m in Sources */,
+				4F82DC67176C760F006DD067 /* ViewController.m in Sources */,
+				4F82DC78176C7718006DD067 /* JSONKit.m in Sources */,
+				4F82DC82176C7C3E006DD067 /* GeoJSONCRS.m in Sources */,
+				4F82DC85176C8044006DD067 /* GeoJSONPoint.m in Sources */,
+				4F82DC88176C80F4006DD067 /* GeoJSONBBox.m in Sources */,
+				4F82DC8B176C872A006DD067 /* GeoJSONLineString.m in Sources */,
+				4F82DC8E176C92E5006DD067 /* GeoJSONGeometry.m in Sources */,
+				4F82DC91176C963A006DD067 /* GeoJSONPolygon.m in Sources */,
+				4F82DC94176C96A0006DD067 /* GeoJSONLinearRing.m in Sources */,
+				4F82DC98176CA262006DD067 /* GeoJSONMultiPoint.m in Sources */,
+				4F82DC9B176CA48E006DD067 /* GeoJSONMultiLineString.m in Sources */,
+				4F82DC9E176D999A006DD067 /* GeoJSONMultiPolygon.m in Sources */,
+				4F82DCA1176D9D99006DD067 /* GeoJSONGeometryCollection.m in Sources */,
+				4F82DCA4176DA3DF006DD067 /* GeoJSONNamedCRS.m in Sources */,
+				4F82DCA7176DA95E006DD067 /* GeoJSONLinkCRS.m in Sources */,
+				4F82DCAA176DAAE7006DD067 /* GeoJSONFeature.m in Sources */,
+				4F82DCAD176DAD8F006DD067 /* GeoJSONObject.m in Sources */,
+				4F82DCB0176DD301006DD067 /* GeoJSONFeatureCollection.m in Sources */,
+				4F82DCB3176DDA4B006DD067 /* NSString+GeoJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F82DC56176C760F006DD067 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F82DC57176C760F006DD067 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F82DC68176C760F006DD067 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F82DC69176C760F006DD067 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F82DC6B176C760F006DD067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F82DC6C176C760F006DD067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F82DC6E176C760F006DD067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoJSONKit/GeoJSONKit-Prefix.pch";
+				INFOPLIST_FILE = "GeoJSONKit/GeoJSONKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F82DC6F176C760F006DD067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoJSONKit/GeoJSONKit-Prefix.pch";
+				INFOPLIST_FILE = "GeoJSONKit/GeoJSONKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F82DC43176C760E006DD067 /* Build configuration list for PBXProject "GeoJSONKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F82DC6B176C760F006DD067 /* Debug */,
+				4F82DC6C176C760F006DD067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F82DC6D176C760F006DD067 /* Build configuration list for PBXNativeTarget "GeoJSONKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F82DC6E176C760F006DD067 /* Debug */,
+				4F82DC6F176C760F006DD067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F82DC40176C760E006DD067 /* Project object */;
+}
