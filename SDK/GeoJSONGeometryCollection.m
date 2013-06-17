@@ -90,7 +90,7 @@
             [mpolygon release];
         }
     }
-    [self initWithGeometries:gArray bbox:bbox crs:crs];
+    self = [self initWithGeometries:gArray bbox:bbox crs:crs];
     [gArray release];
     return self;
 }

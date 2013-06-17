@@ -55,14 +55,17 @@
             GeoJSONLinearRing * ring = [[GeoJSONLinearRing alloc] initWithPoints:mArray];
             [mArray release];
             [rArray addObject:ring];
+            [ring release];
             
         }
         GeoJSONPolygon * polygon = [[GeoJSONPolygon alloc] initWithRings:rArray bbox:bbox crs:crs];
-        [polygonsArray addObject:polygon];
         [rArray release];
+        [polygonsArray addObject:polygon];
+        [polygon release];
+        
 
     }
-    [self initWithPolygons:polygonsArray];
+    self = [self initWithPolygons:polygonsArray];
     [polygonsArray release];
     return self;
 }

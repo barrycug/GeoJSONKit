@@ -41,7 +41,7 @@
         [mArray addObject:v];
         
     }
-    [self initWithPoints:mArray];
+    self = [self initWithPoints:mArray];
     [mArray release];
     return self;
 

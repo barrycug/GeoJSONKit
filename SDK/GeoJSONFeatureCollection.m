@@ -46,7 +46,7 @@
         [features addObject:feature];
         [feature release];
     }
-    [self initWithFeatures:features bbox:bbox crs:crs];
+    self = [self initWithFeatures:features bbox:bbox crs:crs];
     [features release];
     return self;
     

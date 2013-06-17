@@ -87,7 +87,7 @@
         geometry =[[GeoJSONMultiPolygon alloc] initWithJSON:dict];
 
     }
-    [self initWithFID:fId geometry:geometry properties:properties bbox:bbox crs:crs];
+    self = [self initWithFID:fId geometry:geometry properties:properties bbox:bbox crs:crs];
     [geometry release];
     return self;
     

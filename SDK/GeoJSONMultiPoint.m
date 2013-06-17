@@ -49,7 +49,7 @@
         [mArray addObject:v];
         
     }
-    [self initWithPoints:mArray bbox:bbox crs:crs];
+    self = [self initWithPoints:mArray bbox:bbox crs:crs];
     [mArray release];
     return self;
 }

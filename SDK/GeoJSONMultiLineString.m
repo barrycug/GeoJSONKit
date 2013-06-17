@@ -50,9 +50,10 @@
         GeoJSONLineString * lineString = [[GeoJSONLineString alloc] initWithPoints:mArray];
         [mArray release];
         [lsArray addObject:lineString];
+        [lineString release];
         
     }
-    [self initWithLineStrings:lsArray bbox:bbox crs:crs];
+    self = [self initWithLineStrings:lsArray bbox:bbox crs:crs];
     [lsArray release];
     return self;
 
@@ -63,7 +64,7 @@
     if (index < [_lineStrings count]) {
         return [_lineStrings objectAtIndex:index]; 
     }
-    return self;
+    return nil;
 }
 
 -(NSInteger)numOfLineStrings

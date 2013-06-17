@@ -57,9 +57,10 @@
         GeoJSONLinearRing * ring = [[GeoJSONLinearRing alloc] initWithPoints:mArray];
         [mArray release];
         [rArray addObject:ring];
+        [ring release];
         
     }
-    [self initWithRings:rArray bbox:bbox crs:crs];
+    self = [self initWithRings:rArray bbox:bbox crs:crs];
     [rArray release];
     return self;
 
